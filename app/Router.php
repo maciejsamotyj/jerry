@@ -44,6 +44,7 @@ class Router
         } catch (MethodNotAllowedException $e) {
             echo 'Route method is not allowed.';
         } catch (ResourceNotFoundException $e) {
+            header('location: ' . $routes->get('homepage')->getPath());
             echo 'Route does not exists.';
         } catch (NoConfigurationException $e) {
             echo 'Configuration does not exists.';
