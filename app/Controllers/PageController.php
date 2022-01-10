@@ -12,7 +12,7 @@ class PageController
     // Homepage action
     public function indexAction(RouteCollection $routes)
     {
-        $routeToProduct = str_replace('{id}', 1, $routes->get('product')->getPath());
+        $routeToProduct = str_replace('{id}', 1, $routes->get('task')->getPath());
 
         require_once APP_ROOT . '/views/home.php';
     }

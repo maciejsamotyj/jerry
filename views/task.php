@@ -17,7 +17,7 @@
                     $statusText = 'Zrealizowano';
                 }
                 ?>
-                <dl class="row">
+                <dl class="row d-flex flex-row">
                     <dt class="col-sm-3">Identyfikator</dt>
                     <dd class="col-sm-9"><a href="<?php echo $task->id; ?>"><?php echo $task->id; ?></a></dd>
 

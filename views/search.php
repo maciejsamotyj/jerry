@@ -1,4 +1,4 @@
-<form id="search" action="<?php echo $routes->get('product')->getPath(); ?>">
+<form id="search" action="<?php echo $routes->get('task')->getPath(); ?>">
     <div class="row height d-flex justify-content-center align-items-center">
         <div class="col-md-8">
             <div class="search"><i class="fa fa-search"></i>
